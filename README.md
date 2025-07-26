@@ -1,6 +1,6 @@
 # 🎬 Movie Recommendation System
 
-![App Screenshot](464ae9ef-0eca-4443-9613-667184683a80.png)
+<img width="1914" height="991" alt="image" src="https://github.com/user-attachments/assets/59208f54-f273-4197-b8cd-e1292fbffd5e" />
 
 ## 📌 Project Overview
 
