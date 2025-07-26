@@ -85,19 +85,6 @@ The app interface lets you choose a movie and returns the top 5 recommendations 
 
 ---
 
-## 💡 Future Improvements
-
-- Add support for hybrid filtering (e.g., collaborative + content-based)
-- Add user-based recommendation
-- Include movie trailers or ratings
-- Enhance search with fuzzy matching
-
----
-
-## 📬 Contact
-
-If you liked this project or have suggestions, feel free to connect with me on [LinkedIn](https://www.linkedin.com/).
-
 ---
 
 *Last updated: 2025-07-26*
