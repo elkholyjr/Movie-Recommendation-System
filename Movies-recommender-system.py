@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import zipfile
 import pandas as pd
 import requests
 def fetch_poster(movie_id):
@@ -23,8 +24,15 @@ def recommend(movie):
     recommended_movies_posters.append(fetch_poster(movie_id))
   return recommended_movies, recommended_movies_posters
 
-movies_list = pickle.load(open(r'C:\Users\PC\Desktop\Movies-recommender\Movie-Recommendation-System\movies.pkl', 'rb'))
-similarity = pickle.load(open(r'C:\Users\PC\Desktop\Movies-recommender\Movie-Recommendation-System\similarity.pkl', 'rb'))
+# Open the ZIP file
+with zipfile.ZipFile("Movie-Recommendation-System-PKL.zip", "r") as zip_ref:
+    # Load movies.pkl from the zip
+    with zip_ref.open("movies.pkl") as f:
+        movies_list = pickle.load(f)
+
+    # Load similarity.pkl from the zip
+    with zip_ref.open("similarity.pkl") as f:
+        similarity = pickle.load(f)
 movies = pd.DataFrame(movies_list)
 
 st.title('Movies Recommender System')
