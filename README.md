@@ -1,8 +1,8 @@
-# 🎬 Movie Recommendation System
+# Movie Recommendation System
 Link : https://movie-recommendation-system-elkholy.streamlit.app/
 <img width="1914" height="991" alt="image" src="https://github.com/user-attachments/assets/59208f54-f273-4197-b8cd-e1292fbffd5e" />
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a **Content-Based Movie Recommendation System** developed using Python and Streamlit. Given a selected movie, the system recommends similar movies based on several metadata features such as:
 
@@ -16,7 +16,7 @@ The model uses **Natural Language Processing (NLP)** techniques combined with **
 
 ---
 
-## 🚀 Features
+## Features
 
 - Select a movie from a dropdown list
 - Get 5 visually rich movie recommendations with posters
@@ -25,7 +25,7 @@ The model uses **Natural Language Processing (NLP)** techniques combined with **
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 1. **Data Cleaning and Merging**:
     - Combined `movies` and `credits` datasets using the title field.
@@ -47,7 +47,7 @@ The model uses **Natural Language Processing (NLP)** techniques combined with **
 
 ---
 
-## 🔥 Challenges Faced & Solutions
+## Challenges Faced & Solutions
 
 | Challenge | Solution |
 |----------|----------|
@@ -58,7 +58,7 @@ The model uses **Natural Language Processing (NLP)** techniques combined with **
 
 ---
 
-## 📂 Files
+## Files
 
 - `app.py`: Main application script.
 - `movies.pkl`: Serialized movie features and tags dictionary.
@@ -68,7 +68,7 @@ The model uses **Natural Language Processing (NLP)** techniques combined with **
 
 ---
 
-## 🛠️ How to Run Locally
+## How to Run Locally
 
 ```bash
 git clone https://github.com/yourusername/movie-recommender.git
@@ -79,12 +79,8 @@ streamlit run app.py
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
 The app interface lets you choose a movie and returns the top 5 recommendations with their posters and titles.
 
 ---
-
----
-
-*Last updated: 2025-07-26*
